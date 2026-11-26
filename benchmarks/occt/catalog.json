@@ -1,5 +1,6 @@
 {
   "evaluation_suites": [
+    {"id": "occt-23738-suite", "version": "1", "path": "evaluation/suites/occt-23738-suite/1.json"},
     {"id":"occt-github-1550-tangents-version-regression","version":"1","path":"evaluation/suites/regression/occt-github-1550-tangents-version-regression/1.json"},
     {"id":"occt-github-1738-edge8-version-regression","version":"1","path":"evaluation/suites/regression/occt-github-1738-edge8-version-regression/1.json"},
     {"id":"occt-30082-ng05t-version-regression","version":"1","path":"evaluation/suites/regression/occt-30082-ng05t-version-regression/1.json"},
@@ -418,6 +419,7 @@
     }
   ],
   "groups": [
+    {"id": "occt-23738-single", "version": "1", "path": "groups/occt-23738-single/1.json"},
     {"id": "occt-27274-single", "version": "1", "path": "groups/occt-27274-single/1.json"},
     {"id": "occt-24905-single", "version": "1", "path": "groups/occt-24905-single/1.json"},
     {"id": "occt-29322-single", "version": "1", "path": "groups/occt-29322-single/1.json"},
@@ -802,6 +804,7 @@
   ],
   "id": "occt",
   "issues": [
+    {"id": "occt-23738", "version": "1", "path": "issues/occt-23738/1/issue.json"},
     {"id": "occt-27274", "version": "1", "path": "issues/occt-27274/1/issue.json"},
     {"id": "occt-24905", "version": "1", "path": "issues/occt-24905/1/issue.json"},
     {"id": "occt-29322", "version": "1", "path": "issues/occt-29322/1/issue.json"},
